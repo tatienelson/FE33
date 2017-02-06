@@ -11,33 +11,9 @@ while (true) {
     if (memory === '32'|| memory === '64' || memory === '128') break;
 }
 
-if( color === 'red' && memory === '32' ){
-    document.write('<img src="red32.jpg">'); 
-}
-else if( color === 'red' && memory === '64' ){
-    document.write('<img src="red64.jpg">'); 
-}
-else if( color === 'red' && memory === '128' ){
-    document.write('<img src="red128.jpg">'); 
-}
-else if( color === 'green' && memory === '32' ){
-    document.write('<img src="green32.jpg">'); 
-}
-else if( color === 'green' && memory === '64' ){
-    document.write('<img src="green64.jpg">'); 
-}
-else if( color === 'green' && memory === '128' ){
-    document.write('<img src="green128.jpg">'); 
-}
-else if( color === 'blue' && memory === '32' ){
-    document.write('<img src="blue32.jpg">'); 
-}
-else if( color === 'blue' && memory === '64' ){
-    document.write('<img src="blue64.jpg">'); 
-}    
-else if( color === 'blue' && memory === '128' ){
-    document.write('<img src="blue128.jpg">'); 
-} 
+document.write('<img src='+color+memory+'.jpg>')
+
+
 
 
 //Задание 2
