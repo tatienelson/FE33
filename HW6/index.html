@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Events</title>
+
+  <style>
+    #place{
+      position: relative;
+      display: flex;
+    }
+    #modal{
+      width: 350px;
+      height: 100px;
+      margin-left: 250px;
+      position: absolute;
+      border: 2px solid blue;
+      background-color: cornflowerblue;
+    }
+
+    .square{
+      /*width: 30px;*/
+      /*height: 30px;*/
+      position: absolute;
+    }
+
+    .circle{
+      /*width: 30px;
+      height: 30px;*/
+      position: absolute;
+      border-radius: 50%;
+    }
+
+    #area{
+      width: 600px;
+      height: 600px;
+      border: 2px solid gold;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- <button onclick="alert('sdfsdf'); alert('sdfsdf')">Clicker</button>
+  <button onclick="clicker()">Clicker</button> -->
+
+  <!-- <button>Clicker</button>
+  <button>Clicker</button>
+  <button>Clicker</button>
+  <br><br>
+  <button class="btn">Clicker</button>
+  <button class="btn">Clicker</button>
+  <button class="btn">Clicker</button>
+  <br><br>
+  <button id="btn" class="btn">Clicker</button>
+  <button class="btn">Clicker</button>
+  <button class="btn">Clicker</button> -->
+
+  <!-- <button id="btn">CLicker</button>
+
+  <p id="p1">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quae eveniet adipisci quisquam harum quod error rem, tempora sed velit sunt iure quis possimus! Magnam possimus optio minus ea, ducimus.
+  </p> -->
+<div id="place">
+  <div>
+    <input type="number" id="newWidth" value = "30" >
+    <input type="color" id="newBgc">
+  </div>
+ 
+
+</div>
+ 
+  <br>
+  <label>
+    Кварат
+    <input type="radio" name="figure" value="square" checked="checked">
+  </label><br>
+  <label>
+    Кружок
+    <input type="radio" name="figure" value="circle">
+  </label>
+  <br><br>
+  <div id="area"></div>
+
+
+  <script>
+
+    // var tagBtns = document.getElementsByTagName('button');
+    // var classBtns = document.getElementsByClassName('btn');
+    // var btn = document.getElementById('btn');
+    // btn.onclick = function(){
+    //   alert('sdfsdf')
+    // }
+    // function clicker(){
+    //   alert('sdfsdfsdf');
+    // }
+    // console.log( btns );
+
+    // for( var i = 0; i < btns.length; i++ ){
+    //   classBtns[i].onclick = function(){
+    //     alert('sdfsdf')
+    //   }
+    // }
+
+
+    // btn.addEventListener( "click", function(){
+    //   alert('One')
+    // } )
+    // btn.addEventListener( "click", function(){
+    //   alert('Two')
+    // } )
+
+
+
+    // p1.addEventListener( "click", function(){
+    //   // console.log( this )
+    //   // this.innerHTML = '<h1>sdfdsf</h1>'
+    // } )
+
+
+
+  </script>
+
+  <script src="main.js"></script>
+</body>
+</html>
